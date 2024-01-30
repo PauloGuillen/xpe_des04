@@ -6,10 +6,20 @@ Array [
     "Codigo": "AF1010",
     "Descricao": "Apple iPhone 14 128GB Meia-noite 6,1",
     "Preco": 4199.56,
-    "createdAt": "2024-01-30T02:32:03.858Z",
-    "updatedAt": "2024-01-30T02:32:03.858Z",
+    "createdAt": "2024-01-30T15:47:28.723Z",
+    "updatedAt": "2024-01-30T15:47:28.723Z",
   },
 ]
+`;
+
+exports[`Testes de Integração de Produutos POST /produto - altera um produto existente 1`] = `
+Object {
+  "Codigo": "AF1010",
+  "Descricao": "Apple iPhone 14",
+  "Preco": 3014.99,
+  "createdAt": "2024-01-30 15:47:28.887 +00:00",
+  "updatedAt": "2024-01-30 15:47:28.901 +00:00",
+}
 `;
 
 exports[`Testes de Integração de Produutos POST /produto - incluindo um produto inexistente 1`] = `
@@ -17,7 +27,17 @@ Object {
   "Codigo": "AF1010",
   "Descricao": "Apple iPhone 14 128GB Meia-noite 6,1",
   "Preco": 4199.56,
-  "createdAt": "2024-01-30T02:32:04.054Z",
-  "updatedAt": "2024-01-30T02:32:04.054Z",
+  "createdAt": "2024-01-30T15:47:28.852Z",
+  "updatedAt": "2024-01-30T15:47:28.852Z",
+}
+`;
+
+exports[`Testes de Integração de Produutos PUT /produto - altera um produto existente 1`] = `
+Object {
+  "Codigo": "AF1010",
+  "Descricao": "Apple iPhone 14",
+  "Preco": 3014.99,
+  "createdAt": "2024-01-30 15:47:28.958 +00:00",
+  "updatedAt": "2024-01-30 15:47:28.970 +00:00",
 }
 `;

@@ -1,26 +1,26 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize({
-  dialect: 'sqlite',
-  host: 'localhost',
-  port: 49153,
-  database: 'consulta_credito',
-  username: 'postgres',
-  password: 'mysecretpassword',
-  storage: "./src/database.sqlite",
-  logging: false,
-});
-
-
 // const sequelize = new Sequelize({
-//   dialect: 'postgres',
-//   host: 'db',
-//   port: 5432,
+//   dialect: 'sqlite',
+//   host: 'localhost',
+//   port: 49153,
 //   database: 'consulta_credito',
 //   username: 'postgres',
 //   password: 'mysecretpassword',
+//   storage: "./src/database.sqlite",
 //   logging: false,
 // });
+
+
+const sequelize = new Sequelize({
+  dialect: 'postgres',
+  host: 'db',
+  port: 5432,
+  database: 'consulta_credito',
+  username: 'postgres',
+  password: 'mysecretpassword',
+  logging: false,
+});
 
 const clienteModel = (sequelizeCliente, DataTypes) => {
   const Cliente = sequelizeCliente.define('Clientes', {

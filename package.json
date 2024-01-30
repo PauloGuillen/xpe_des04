@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": "jest",  
+    "test": "jest",
     "lint": "eslint src/** test/** --fix",
     "watch": "jest --watch --verbose=true"
   },
