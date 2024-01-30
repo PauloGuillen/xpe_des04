@@ -113,7 +113,7 @@ describe('Testes de Integração', () => {
       .send(payloadRequest);
 
     // Resultado é obtido
-    console.log(res2.body)
+    // console.log(res2.body)
     expect(res2.body.erro).toBeDefined();
     expect(res2.status).toBe(405);
   });

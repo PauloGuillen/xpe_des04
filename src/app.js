@@ -1,10 +1,8 @@
 const express = require('express');
-
 const app = express();
-
 const { check, validationResult } = require('express-validator');
-
 const consultaCliente = require('./consulta-cliente');
+const produtoRouter = require('./produto.js')
 
 app.use(express.json());
 
@@ -39,5 +37,7 @@ app.post(
     }
   },
 );
+
+app.use("/produto", produtoRouter);
 
 module.exports = app;

@@ -3,7 +3,7 @@ const request = require('supertest');
 
 const app = express().use(express.json()).use('/', require('../src/app'))
 
-test('Servidor na porta 5678', async () => {
+test('Servidor na porta 4000', async () => {
 
   const resposta = await request(app).get('/');
 

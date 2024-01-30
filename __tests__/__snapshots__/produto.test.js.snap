@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testes de Integração de Produutos GET /produto 1`] = `
+Array [
+  Object {
+    "Codigo": "AF1010",
+    "Descricao": "Apple iPhone 14 128GB Meia-noite 6,1",
+    "Preco": 4199.56,
+    "createdAt": "2024-01-30T02:32:03.858Z",
+    "updatedAt": "2024-01-30T02:32:03.858Z",
+  },
+]
+`;
+
+exports[`Testes de Integração de Produutos POST /produto - incluindo um produto inexistente 1`] = `
+Object {
+  "Codigo": "AF1010",
+  "Descricao": "Apple iPhone 14 128GB Meia-noite 6,1",
+  "Preco": 4199.56,
+  "createdAt": "2024-01-30T02:32:04.054Z",
+  "updatedAt": "2024-01-30T02:32:04.054Z",
+}
+`;
